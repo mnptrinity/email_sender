@@ -15,9 +15,9 @@ if(isset($_POST['send']))
             $mail ->Host = "smtp.gmail.com";
             $mail ->Port = 465; // or 587
             $mail ->IsHTML(true);
-            $mail ->Username = "mohan2034677@gmail.com";
-            $mail ->Password = "9976764848";
-            $mail ->SetFrom("mohan2034677@gmail.com");
+            $mail ->Username = "yourmail@gmail.com";
+            $mail ->Password = "yourpassword";
+            $mail ->SetFrom("yourmail@gmail.com");
             $mail ->Subject = $mailSub;
             $mail ->Body = $mailMsg;
             $mail ->AddAddress($mailto);
